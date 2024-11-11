@@ -1,0 +1,23 @@
+Analisar a complexidade de cada algoritmo de ordenação (tabela com melhor,
+pior e caso médio).
+
+R: 
+Selection: 
+Melhor Caso: n^2
+Caso Médio: n^2
+Pior Caso: n^2
+
+Bubble:
+Melhor Caso: n
+Caso Médio: n^2
+Pior Caso: n^2
+
+Insertion:
+Melhor Caso: n
+Caso Médio: n^2
+Pior Caso: n^2
+
+Merge:
+Melhor Caso: n logn
+Caso Médio: n logn
+Pior Caso: n logn

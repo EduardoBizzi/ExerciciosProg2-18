@@ -1,0 +1,16 @@
+Fazer análises comparativas (conjunto de dados) onde o resultado seja o
+melhor caso, caso médio e o pior caso para cada algoritmo de ordenação:
+Selection, Bubble, Insertion e Merge Sort.
+
+R:
+Selection: Mesmo em um array ordenado, o Selection Sort percorre toda a lista para encontrar o menor elemento.
+Em uma lista ordenada inversamente, a quantidade de trocas e comparações é a mesma que nos outros casos.
+
+Bubble: Em uma lista já ordenada, o algoritmo detecta isso e finaliza com poucas comparações.
+Em listas inversamente ordenadas, o número de trocas é maximizado.
+
+Insertion: Em uma lista já ordenada, ele apenas verifica cada elemento.
+Em listas inversamente ordenadas, ocorre o máximo de deslocamentos.
+
+Merge: Divisão e mesclagem ocorrem sempre em O(n logn) em qualquer disposição inicial.
+A complexidade de tempo se mantém igual mesmo com uma lista inversamente ordenada.
